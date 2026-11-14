@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Design Tokens
+   ========================================================================== */
+
+:root {
+    /* Colors: Surfaces */
+    --color-bg-base: #faf8f5;
+    --color-bg-surface: #ffffff;
+
+    /* Colors: Typography & Accents */
+    --color-text-primary: #4a2e19;
+    --color-text-secondary: #7a5338;
+    --text-accent: #c4722b;
+
+    /* Colors: Borders */
+    --color-border: #dfd5c6;
+
+    /* Typography */
+    --font-heading: 'Italiana', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+
+    /* Layout & Motion */
+    --radius-lg: 1.25rem;
+    --transition-base: all 0.3s ease;
+}
