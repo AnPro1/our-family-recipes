@@ -23,3 +23,27 @@
     --radius-lg: 1.25rem;
     --transition-base: all 0.3s ease;
 }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+   *, *::before, *::after {
+    box-sizing: border-box;
+   }
+
+   body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    line-height: 1.65;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   }
