@@ -177,3 +177,23 @@ header .container ul {
     color: #8e6427;
 }
 
+/* ==========================================================================
+   Main: About
+   ========================================================================== */
+
+.about {
+    background-color: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    margin-block: 4rem;
+    padding: 3rem 2rem;
+    background-color: var(--color-bg-surface);
+}
+
+.about .container h2 {
+    margin-block: 0 1rem;
+}
+
+.about .container p {
+    margin: 0;
+}
