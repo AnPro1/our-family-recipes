@@ -124,3 +124,56 @@ header .container ul {
     color: var(--text-accent);
 }
 
+/* ==========================================================================
+   Main: Recipe Grid
+   ========================================================================== */
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-grid .container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.recipe-card h3 {
+    margin: 0;
+    padding: 1.5rem 2rem 1rem 2rem;
+}
+
+.recipe-cta {
+    padding: 1rem 2rem 1.5rem;
+    margin-top: auto;
+    font-weight: 500;
+    border-top: 1px solid var(--color-border);
+    color: var(--text-accent);
+}
+
+.recipe-card a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.recipe-card:hover .recipe-cta {
+    color: #8e6427;
+}
+
