@@ -187,7 +187,6 @@ header .container ul {
     border-radius: var(--radius-lg);
     margin-block: 4rem;
     padding: 3rem 2rem;
-    background-color: var(--color-bg-surface);
 }
 
 .about .container h2 {
