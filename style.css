@@ -75,7 +75,7 @@ a, .recipe-card {
     transition: var(--transition-base);
 }
 
-.active {
+nav a[aria-current="page"] {
     color: var(--color-text-primary);
 }
 
