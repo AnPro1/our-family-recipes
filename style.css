@@ -203,6 +203,14 @@ header .container ul {
     color: var(--color-accent-hover);
 }
 
+.recipe-grid {
+    padding-block: 2.5rem 4.5rem;
+}
+
+.recipe-grid h1 {
+    margin-block: 0 2rem;
+}
+
 /* ==========================================================================
    Main: About
    ========================================================================== */
@@ -234,8 +242,8 @@ main {
 
 footer {
     border-top: 1px solid var(--color-border);
-    padding-block: 1rem;
-    margin-top: 1rem;
+    padding-block: 1.5rem;
+    margin-top: 0rem;
 }
 
 footer .container {
